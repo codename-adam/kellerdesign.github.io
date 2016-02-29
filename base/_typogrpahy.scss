@@ -1,0 +1,63 @@
+/* Globa body Styles */
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $gerogia;
+
+	@include font-size(1.6);
+
+	/* For Mobile Menu */
+	&.active {
+		overflow: hidden;
+	}
+}
+
+/* Headline Stlyes */
+h1 {	
+	@include font-size(3.2);
+}
+h2 {
+	@include font-size(3);
+}
+h3 {
+	@include font-size(2.4);
+}
+h4 {
+	@include font-size(1.8);
+}
+h5 {
+	@include font-size(1.6);
+}
+h6 {
+	@include font-size(1.4);
+}
+
+p {
+	font-family: $gerogia;
+	@include font-size(2.4);
+	color: $color--primary;
+}
+
+p, #content table, #content div {
+	color: $color--primary;
+}
+
+a,
+a.small,
+a.anchor,
+a.visited {
+	color: 	DodgerBlue; // Like this
+	text-decoration: underline;
+	@include transition(.35s, ease);
+	&:hover {
+		color: lighten(DeepSkyBlue, 10%);
+		text-decoration: underline;
+	}
+}
+
+// Lists
+li {
+	color: $color--primary;
+	font-family: $gerogia;
+	@include font-size(2.4);
+}
