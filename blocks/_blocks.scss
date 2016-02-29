@@ -1,0 +1,43 @@
+// _blocks.scss
+.l-block {
+  padding-top: 5% 0px;
+  h4 {
+    @include font-size(4);
+    font-family: $verdana;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: darken(#e8e8e8, 10%);
+  }
+}
+.r-block {
+	padding: 0 0 1.5% 0;
+	ul {
+		padding-top: 10px;
+		@media (max-width: 40em) {
+			padding: 0 0 0 1.250em;
+		}
+	}
+	a {
+		text-decoration: none;
+	}
+	h2 {
+		color: DodgerBlue;
+		margin-bottom: 0;
+		text-decoration: none;
+		a:hover {
+			color: darken(DodgerBlue, 5%);
+			text-decoration: underline;
+		}
+	}
+	&-h {
+		width: 47%;
+		float: left;
+		background-color: #f4f4f4;
+		border-radius: 10px;
+		margin: 10px;
+		padding: 5%;
+		em {
+			font-weight: 500;
+		}
+	}
+}
