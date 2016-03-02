@@ -152,6 +152,7 @@ li {
   color: white;
   text-transform: uppercase;
   font-weight: 500;
+  text-decoration: none;
   background-color: DodgerBlue;
   font-size: 16px;
   line-height: 24px;
@@ -165,28 +166,36 @@ li {
     .btn--word:hover {
       background-color: #69dd9a;
       border-radius: 5em;
-      border-bottom-left-radius: 0; }
+      border-bottom-left-radius: 0;
+      color: #fff;
+      text-decoration: none; }
   .btn--adobe {
     background-color: #2ecc71;
     color: #fff; }
     .btn--adobe:hover {
       background-color: #69dd9a;
       border-radius: 5em;
-      border-bottom-left-radius: 0; }
+      border-bottom-left-radius: 0;
+      color: #fff;
+      text-decoration: none; }
   .btn--warning {
     background-color: #c0392b;
     color: #fff; }
     .btn--warning:hover {
       background-color: #db695d;
       border-radius: 5em;
-      border-bottom-left-radius: 0; }
+      border-bottom-left-radius: 0;
+      color: #fff;
+      text-decoration: none; }
   .btn--enactive {
     background-color: #ecf0f1;
     color: #f4f4f4; }
     .btn--enactive:hover {
       background-color: white;
       border-radius: 5em;
-      border-bottom-left-radius: 0; }
+      border-bottom-left-radius: 0;
+      color: #fff;
+      text-decoration: none; }
 
 .banner {
   background: -webkit-radial-gradient(100% 50%, circle, transparent 20%, rgba(255, 255, 255, 0.3) 21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent), -webkit-radial-gradient(0% 50%, circle, transparent 20%, rgba(255, 255, 255, 0.3) 21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent) 0 -50px;
@@ -285,7 +294,7 @@ nav .list {
     line-height: 60px;
     font-size: 4rem;
     line-height: 6rem;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: "Lato", sans-serif;
     text-transform: uppercase;
     margin-bottom: 10px;
     color: #cfcfcf; }
