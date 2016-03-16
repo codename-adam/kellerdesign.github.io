@@ -1,0 +1,73 @@
+// _base.scss
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// /* Changes slection color */
+// ::selection {
+//   background: #00FA9A; /* WebKit/Blink Browsers */
+// }
+// ::-moz-selection {
+//   background: #00FA9A; /* Gecko Browsers */
+// }
+
+
+/* Fonts */
+$gerogia:                      Georgia, serif;
+$merri:                        'Merriweather', serif;
+$lato:                         'Lato', sans-serif;
+
+/* Colors */
+$color--primary:               #322e29; // Black
+$color--secondary:             #184a69; // Navy Blue
+$color--tertiary:              #447e95; // Sky Blue
+$color--white:                 #ffffff; // White
+$color--offwhite:              #eeebe7; // Gray
+$color--red:                   #9e1d20; // Red
+
+
+/* Darken or Lighten Color */
+$darken:                       darken(DodgerBlue, 5);
+$lighten:                      lighten(DodgerBlue, 5);
+
+/* Changes Saturation */
+$desaturate:                   desaturate(lighten(#1E90Ff, 11), 18);
+
+/* Changes Hue */
+$hue:                          adjust_hue(desaturate(lighten(#1E90Ff, 11), 18),193);
+
+// Maps
+$buttons: (
+  word: (#2ecc71, #fff),
+  adobe: (#2ecc71, #fff),
+  warning: (#c0392b, #fff),
+  enactive: (#ecf0f1, #f4f4f4)
+);
+
+$type-scale: (
+  -1: 0.75rem,  // small text
+  0: 1rem,      // body text
+  1: 1.333rem,  // large text
+  2: 1.777rem   // main heading
+);
+
+
+/* Random Styles */
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 3em;
+  @media (max-width: 40em) {
+    padding: 0 2em;
+  }
+  @media (max-width: 30em) {
+    padding: 0 1.5em;
+  }
+  @media (max-width: 20em) {
+    padding: 0 1em;
+  }
+}

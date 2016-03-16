@@ -1,0 +1,39 @@
+// $base-font-size: 1rem;
+// $base-line-height: $base-font-size * 1.25;
+
+// _mixins.scss
+
+// Take you px value and divide by 10
+@mixin font-size($sizeValue:1.6, $line: $sizeValue * 1.5){
+  
+  // Spits out a pixel value 
+  font-size:   ($sizeValue * 10) + px;
+  line-height: ($line * 10) + px;
+
+  // Spits out a rem value 
+  font-size:   $sizeValue + rem;
+  line-height: $line + rem;
+}
+
+
+// @function line-height($level) {
+//   @return map-get($line-height, $level);
+// }
+
+// @function type-scale($level) {
+//   @return map-get($type-scale, $level);
+// }
+
+// Transitions
+@mixin transition($speed, $animate) {
+  transition: ($speed, $animate); 
+}
+
+
+// Centering Vertical - Horizontal
+@mixin centering {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
