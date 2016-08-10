@@ -101,7 +101,7 @@ a,
 a.small,
 a.anchor,
 a.visited {
-  color: DodgerBlue;
+  color: #39C0C6;
   text-decoration: underline;
   -webkit-transition: 0.35s, ease;
           transition: 0.35s, ease; }
@@ -109,7 +109,7 @@ a.visited {
   a.small:hover,
   a.anchor:hover,
   a.visited:hover {
-    color: #33ccff;
+    color: #61cdd1;
     text-decoration: underline; }
 
 /* Job Titles */
@@ -310,11 +310,11 @@ nav .list {
   .r-block a {
     text-decoration: none; }
   .r-block h2 {
-    color: DodgerBlue;
+    color: #39C0C6;
     margin-bottom: 0;
     text-decoration: none; }
     .r-block h2 a:hover {
-      color: #0583ff;
+      color: #33adb2;
       text-decoration: underline; }
   .r-block-h {
     width: 47%;
@@ -327,7 +327,7 @@ nav .list {
       font-weight: 500; }
 
 footer {
-  background-color: DodgerBlue;
+  background-color: #39C0C6;
   text-align: center;
   color: white;
   padding: 3em 0;

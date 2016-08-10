@@ -50,11 +50,11 @@ a,
 a.small,
 a.anchor,
 a.visited {
-	color: 	DodgerBlue; // Like this
+	color: 	#39C0C6; // Like this
 	text-decoration: underline;
 	@include transition(.35s, ease);
 	&:hover {
-		color: lighten(DeepSkyBlue, 10%);
+		color: lighten(#39C0C6, 10%);
 		text-decoration: underline;
 	}
 }
