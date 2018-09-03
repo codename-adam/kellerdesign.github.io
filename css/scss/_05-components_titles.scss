@@ -1,0 +1,37 @@
+%title-setup {
+  color: $color-brand-primary-navy;
+  font-family: $oswald;
+}
+
+// Default Title
+.c-title {
+  @extend %title-setup;
+
+  &--1 {
+    font-size: $fs-xxl;
+  }
+
+  &--2 {
+    font-size: $fs-xl;
+  }
+
+  &--3 {
+    font-size: $fs-lg;
+  }
+
+  &--4 {
+    font-size: $fs-md;
+  }
+
+  &--5 {
+    font-family: $garamond;
+    font-style: italic;
+    font-weight: 100;
+    font-size: $fs-sm;
+  }
+
+  &--6 {
+    font-size: $fs-xs;
+  }
+
+}

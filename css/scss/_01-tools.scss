@@ -1,0 +1,12 @@
+@mixin grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+@mixin child-columns($col-start, $col-end) {
+  // grid-column: #{$col-start}/#{$col-end};
+}
+
+@mixin child-rows ($col-start, $col-end) {
+  // grid-row: $col-start / $col-end;s
+}

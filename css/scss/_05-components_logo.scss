@@ -1,0 +1,26 @@
+// Logo styles
+.c-logo {
+  width: 100px;
+
+  // default svg logo styles
+  fill:none;
+  stroke: $color-brand-primary-navy;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+
+}
+
+.c-btn {
+  padding: $spacing-md $spacing-lg;
+  background-color: $color-brand-primary-lime;
+  color: $color-brand-primary-navy;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: .3s ease;
+  text-transform: uppercase;
+  font-family: $oswald;
+  &:hover {
+    background-color: darken($color-brand-primary-lime, 5%);
+  }
+}

@@ -1,0 +1,67 @@
+/* Main SCSS variables */
+
+/*
+===============
+Primary Color Palette
+===============
+*/
+
+$color-brand-primary-navy: #23303F;
+$color-brand-primary-sky: #7ED0DD;
+$color-brand-primary-tan: #F7F0E3;
+$color-brand-primary-lime: #EEE92C;
+
+
+
+/*
+===============
+Neutrals
+===============
+*/
+$color-neutral-white: #ffffff;
+$color-neutral-black: #000000;
+
+$color-neutral-gray-80: #333333;
+$color-neutral-gray-60: #666666;
+$color-neutral-gray-40: #999999;
+$color-neutral-gray-20: #c9c9c9;
+$color-neutral-gray-10: #f4f4f4;
+$color-neutral-gray-05: #f9f9f9;
+
+
+
+/*
+===============
+Font Stacks
+===============
+*/
+$oswald: 'Oswald', Impact, 'Franklin Gothic Bold', sans-serif;
+$garamond: 'EB Garamond', Times New Roman, serif;
+
+
+/*
+===============
+Spacing Units - 8 pixel Method
+===============
+*/
+$spacing-xxl: 40px;
+$spacing-xl: 32px;
+$spacing-lg: 24px;
+$spacing-md: 16px;
+$spacing-sm: 8px;
+$spacing-xs: 4px;
+$spacing-xxs: 2px;
+
+
+/*
+===============
+Default Font Size - Modular Scale - Perfect fourth - 1.333
+===============
+*/
+$fs-xxl: 3.157em; // 50.517px
+$fs-xl: 2.369em;  // 37.897px
+$fs-lg: 1.777em;  // 28.43px
+$fs-md: 1.333em;  // 21.328px
+$fs-sm: 1em;      // 16px
+$fs-xs: 0.75em;   // 12.003px
+$fs-xxs: 0.563em; // 9.005px

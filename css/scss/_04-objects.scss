@@ -1,0 +1,45 @@
+body, html {
+  display: grid;
+  height: 100%;
+  background-color: $color-brand-primary-tan;
+
+  .wrap {
+    display: block;
+    margin: auto;
+    width: 500px;
+    position: relative;
+    text-align: center;
+  }
+}
+
+.o-grid {
+  @include grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, minmax(100px, 1fr));
+  grid-template-rows: repeat(12, 1fr);
+
+  // ONLY FOR LAYOUT PURPOSE
+  .o-header {
+    grid-column: 1 / 4;
+    margin-bottom: $spacing-lg;
+  }
+
+  .o-sidebar {
+    grid-column: 1 / 4;
+  }
+
+  .o-personal {
+    grid-column: 4 / 13;
+    grid-row: 1 / 2;
+  }
+
+  .o-main {
+    grid-column: 4 / 13;
+  }
+
+  .o-footer {
+    grid-column: 1 / 13;
+    // grid-row: 12 / 13;
+  }
+
+}
